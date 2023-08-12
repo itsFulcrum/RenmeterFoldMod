@@ -5,6 +5,9 @@ Original skin by DevilRev: https://www.deviantart.com/devilrev/art/unFold-A-Laun
 
 This is a modified version of the Unfold skin for rainmeter. 
 
+![Alt text](Screenshots/ScreenMain.png?raw=true "screenshot")
+
+
 What is different.
 Essentially this version aims to make customisation of your launchers much simpler.
 
