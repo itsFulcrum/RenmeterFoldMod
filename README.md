@@ -1,5 +1,5 @@
 # RainmeterFoldMod
-Rainmeter Skin based un UnFold by  DevilRev
+Rainmeter Skin based on UnFold by  DevilRev
 Original skin by DevilRev: https://www.deviantart.com/devilrev/art/unFold-A-Launcher-618503449
 
 
@@ -11,18 +11,18 @@ This is a modified version of the Unfold skin for rainmeter.
 What is different.
 Essentially this version aims to make customisation of your launchers much simpler.
 
-The first Big difference is that I implemented launcher for the right side of the scree aswell
-For each launcher ther are two files "Discord_L","Discord_R" for left and right version of the launchers.
+The firstly I implemented launchers for the right side of the screen aswell.
+For each launcher there are two files "Discord_L","Discord_R" for left and right version of the launchers.
 
-Next I implemented a variables architecture. Meaning that you can change certain part of your launchers appearance with within just one file.
+Next I implemented a variables architecture. Meaning that you can change the appearance of all your launchers within just one file.
 
-In the orriginal version each launcher was simply one image file and if you wanted to change the look of it you would have to do it manually in a foto editing software more importantly you would have to do it for every single icon wich can be a huge time if you have a lot of them.
-
-In my version there are still icons but just the icon itself without its text and box.
-The Text and background shape is directly drawn by rainmeter.
+In the orriginal version the look of the launchers was defined by the image file.
+In my version there are still icons images but just the icon itself without its text and background.
+The text and background shape is directly drawn by rainmeter.
+Allowing you to change things like color, fontsize, transaprency etc.
 
 Drawbacks.
-In theory this gives you less visual controll overall since with this current setup you can only make the background shapes square or varous levels of round, so you cant make crazy grafics or other special thing that a image software would allow you too. However due to the fact that you can change quite some parameters for all your launchers instantly I would argue that this is a much better solution overall.
+In theory this gives you less visual controll overall since with this current setup you can only make the background shapes square or varous levels of round, so you cant make crazy graphics or other special things that an image software would allow you too. However due to the fact that you can change quite some parameters for all your launchers instantly I would argue that this is a much better solution overall.
 
 Theoretically this also means more cpu overhead since we need to do more draw call I'm not super into how rainmeter handels it's draw commands and if it can render them efficiantly. However since my image files for the icons are smaller in my version there should be less memory usage.
 
