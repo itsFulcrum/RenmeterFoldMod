@@ -9,19 +9,19 @@ This is a modified version of the Unfold skin for rainmeter.
 
 
 What is different.
-Essentially this version aims to make customisation of your launchers much simpler.
+Essentially this modification aims to make customisation of your launchers much simpler.
 
-The firstly I implemented launchers for the right side of the screen aswell.
-For each launcher there are two files "Discord_L","Discord_R" for left and right version of the launchers.
+Firstly I implemented launchers for the right side of the screen aswell.
+For each launcher there are two versions like "Discord_L","Discord_R" for left and right version of the launchers.
 
 Next I implemented a variables architecture. Meaning that you can change the appearance of all your launchers within just one file.
 
 In the orriginal version the look of the launchers was defined by the image file.
-In my version there are still icons images but just the icon itself without its text and background.
+In my version there are still icons images but only the icon itself without its text and background.
 The text and background shape is directly drawn by rainmeter.
 Allowing you to change things like color, fontsize, transaprency etc.
 
-Drawbacks.
+### Drawbacks.
 In theory this gives you less visual controll overall since with this current setup you can only make the background shapes square or varous levels of round, so you cant make crazy graphics or other special things that an image software would allow you too. However due to the fact that you can change quite some parameters for all your launchers instantly I would argue that this is a much better solution overall.
 
 Theoretically this also means more cpu overhead since we need to do more draw call I'm not super into how rainmeter handels it's draw commands and if it can render them efficiantly. However since my image files for the icons are smaller in my version there should be less memory usage.
